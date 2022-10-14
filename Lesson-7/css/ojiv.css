@@ -1,0 +1,43 @@
+.ojiv{
+    display: flex;
+    justify-content: center;
+}
+.ojiv__top h3{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 140%;
+text-align: center;
+color: #333333;
+}
+.ojiv__top h2{
+    font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+color: #333333;
+margin-bottom: 60px;
+}
+.ojiv__contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.ojiv__look button{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #333333;
+border: 1px solid #FFFFFF;
+padding: 15px 35px;
+margin-top: 75px;
+}

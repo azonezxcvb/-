@@ -1,0 +1,231 @@
+@import url("./header.css");
+@import url("./sort.css");
+@import url("cotalog.css");
+@import url("./about.css");
+@import url("./mail.css");
+@import url("../css/footer.css");
+@import url("./hero.css");
+@import url("./gift.css");
+@import url("./salon.css");
+@import url("./ojiv.css");
+@import url("./soci.css");
+
+
+@import url("./meadia.css");
+.container {
+   max-width: 1110px;
+   margin: auto;
+}
+body,
+main,h1,h2 {
+   margin: 0;
+   padding: 0;
+}
+header {
+   background: #333333;
+}
+.header__content {
+   padding-top: 27px;
+   padding-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__nav {
+   display: flex;
+   gap: 40px;
+   list-style: none;
+}
+.header__nav li {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #ffffff;
+}
+.header__right {
+   display: flex;
+   align-items: center;
+}
+.icon img {
+   margin-right: 16px;
+}
+.icon {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+}
+.header__right h2 {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #ffffff;
+   margin-left: 40px;
+   margin-right: 44px;
+}
+.icons {
+   display: flex;
+   gap: 30px;
+}
+.burger {
+   display: none;
+}
+/* секция сорт */
+
+.sort__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+}
+.sort__select {
+   display: flex;
+   align-items: center;
+   gap: 60px;
+   border-bottom: 1px solid red;
+}
+
+.sort__select h2 {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #333333;
+}
+/* секция каталог  */
+
+.cotalog {
+   margin-top: 95px;
+}
+.cotalog__content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.card {
+   width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-bottom: 100px;
+}
+.card h3 {
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #333333;
+   margin: 0;
+}
+.card h2 {
+   /* catalog / h3-24-sm */
+
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 140%;
+   color: #333333;
+}
+.card button {
+   background: #333333;
+   border: 1px solid #ffffff;
+   padding: 10px 20px;
+   font-family: "Gilroy";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   color: #ffffff;
+}
+@media (max-width: 900px) {
+   .card {
+      width: 48%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 100px;
+   }
+   .header__nav {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      display: none;
+   }
+   .header__content {
+      justify-content: space-around;
+   }
+   .sort__content {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+   .sort__select {
+      width: 22%;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      border-bottom: 1px solid red;
+   }
+}
+
+@media (max-width: 650px) {
+   .sort__select {
+      width: 30%;
+   }
+}
+@media (max-width: 600px) {
+   .card {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 100px;
+   }
+   .header__right {
+      display: none;
+   }
+   .logo {
+      margin-left: 30px;
+   }
+   .burger {
+      display: block;
+   }
+   .burger img {
+      width: 50px;
+      height: 50px;
+   }
+   .header__content {
+      justify-content: space-around;
+   }
+   .sort__select {
+      width: 49%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+}
+ul{
+   list-style: none;
+   margin: 0%;
+   padding: 0;
+}

@@ -1,0 +1,26 @@
+.soci__top h3{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 140%;
+text-align: center;
+color: #333333;
+}
+.soci__top h2{
+    font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+color: #333333;
+margin-bottom: 60px;
+}
+.soci__contact video{
+    width: 555px;
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.4), rgba(51, 51, 51, 0.4)), url(.jpg);
+}
+.soci__contact img{
+    width: 277px;
+}
